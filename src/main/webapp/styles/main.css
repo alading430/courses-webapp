@@ -1,0 +1,28 @@
+
+body {
+	min-height: 2000px;
+	padding-top: 70px;
+}
+
+#user {
+	padding: 4px;
+	color: #fff;
+}
+
+#result {
+	margin: 2px;
+	padding: 20px;
+}
+
+@media screen and (min-width:1025px) {
+.form-group { max-width: 50%; }
+}
+
+@media screen and (max-width: 480px) {
+table td { font-size: 0.5em; }
+}
+
+.message {
+	padding: 10px;
+	text-align: left;
+}
